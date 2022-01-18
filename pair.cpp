@@ -11,6 +11,8 @@ int main(){
     
     p.first=3;        //|
     p.second="singh"; //| third way to give value
+  
+    cin>>p.first>>p.second; //taking user input in pair
     
     pair< int, string > s=p; // copying p to s;
     
