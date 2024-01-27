@@ -19,7 +19,7 @@ int main() {
      
     vector<pair <int, int>> vec;
     vec.push_back({1,2});
-    vec.push_back({4,6});
+    vec.emplace_back(4,6); //emplace_back assume 4,6 Should be a pair
     for(auto i: vec)
         cout<<i.first<<" "<<i.second<<"\n";
     
