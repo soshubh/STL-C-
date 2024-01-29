@@ -21,11 +21,5 @@ int main() {
     cout<<st.size();
     cout<<st.count(1);/// if 1 is thre give 1 otherwise 0
     
-    auto it1 = st.find(2); 
-    auto it2 = st.find(3); 
-    st.erase
-    
-    
-    
     return 0;
 }
