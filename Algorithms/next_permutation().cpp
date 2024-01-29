@@ -6,7 +6,11 @@ int main() {
     do{
         cout<<s<<"\n";
     }while(next_permutation(s.begin(),s.end()));
-    
+    /*
+     230
+     302
+     320
+    */
     
     return 0;
 }
