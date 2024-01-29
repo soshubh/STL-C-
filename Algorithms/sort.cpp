@@ -1,6 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// he comp function is a custom comparison function that you define to specify the order in which elements should be sorted. 
+
+bool comp(pair<int, int>& x, pair<int, int>& y) {
+    // Compare based on the second element
+    if (x.second != y.second) {
+        return x.second < y.second; // Sort in ascending order based on the second element
+    }
+
+    // If the second elements are the same, sort in descending order based on the first element
+    return x.first > y.first;
+}
+
 int main() {
     sort(a, a+n);
     
